@@ -1,0 +1,68 @@
+table, th, td {
+    border: 1px solid black;
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+}
+
+.ownSquare {
+    width: 25px;
+    height: 25px;
+}
+
+.boat {
+    background: yellow;
+}
+
+.missed {
+   /* background: red; */
+   background-image: url("http://media-minecraftforum.cursecdn.com/avatars/0/143/635356669615464494.png");
+   background-size: 100% auto;
+}
+
+.hit {
+    background: green;
+}
+
+.destroyed {
+    /*background: black;*/
+    background-image: url("https://pbs.twimg.com/profile_images/885098945722159105/Au1BZw24_400x400.jpg");
+    background-size: 100% auto;
+}
+
+.hover {
+    background: orange;
+}
+
+#playfield {
+    display: block;
+    width: 450px;
+    height: 450px;
+    position: relative;
+    margin: 10px auto;
+}
+
+#joinRoom {
+    display: block;
+    width: 450px;
+    height: 450px;
+    margin: auto;
+}
+
+#gameover {
+    display: none;
+}
+
+#reset {
+    width: 100px;
+    height: 50px;
+    position: relative;
+    display: block;
+    margin: 10px auto;
+}
+
+#playBtn {
+    display: none;
+}

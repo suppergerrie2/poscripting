@@ -1,0 +1,77 @@
+/*
+* width total: 350px
+* height total: 350px
+*/
+
+#calculator {
+    width: 700px;
+    height: 300px;
+    background: #6e6e6e;
+    margin: 50px auto;
+}
+
+#screen {
+    display:block;
+    position: relative;
+    width: 600px;
+    height: 40px;
+    margin: 10px auto;
+    margin-bottom: 25px;
+    top: 20px;
+    color: #fff;
+    text-align: right;
+    font-size: 20px;
+    padding-top: 20px;
+    background: #1e1e1e;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+#lastScreen {
+    position: fixed;
+    width: 600px;
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 10px;
+    background: #1e1e1e;
+    color: #fff;
+    overflow-x: auto;
+    z-index: 10;
+}
+
+#inputs {
+    margin-left: 25px;
+}
+
+.row {
+    margin-bottom: 5px;
+}
+
+.btn1 {
+    width: 70px;
+}
+
+.btn2 {
+    width: 147px;
+}
+
+.operator {
+    background: #ee0000;
+}
+
+.num {
+    background: #00ee00;
+}
+
+.button {
+    height: 35px;
+    margin-right: 4px;
+}
+
+#del {
+    background: #4286f4;
+}
+
+#eq {
+    background: #41f441;
+}
